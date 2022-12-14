@@ -15,7 +15,7 @@ public class UniqueOccurance{
                  map.put(arr[i], map.get(arr[i])+1);
              }else
                  map.put(arr[i],1);
-         }
+           }
            Set<Integer> set = new HashSet<>(map.values());
            if(set.size()==map.size())
                return true;
