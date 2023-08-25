@@ -25,7 +25,7 @@ public class CharacterFrequency {
             for(Map.Entry<Character,Integer> e : map.entrySet()){
             if(e.getValue()>max){
                 max = e.getValue();
-                ch = e.getKey();
+                ch =    e.getKey();
             }
         }
             for(int j =max; j>0;j--){

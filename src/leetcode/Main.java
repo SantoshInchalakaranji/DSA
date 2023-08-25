@@ -1,7 +1,9 @@
 package leetcode;
 
-import leetcode.String.CharacterFrequency;
+
+import leetcode.Array.Pascal;
 import leetcode.String.HalvesAreAlike;
+
 
 public class Main {
   
@@ -10,11 +12,14 @@ public class Main {
         // bit_reverse.reverse(5);
         // bit_reverse.reverse(6);
 
-        // HalvesAreAlike half = new HalvesAreAlike();
-        // System.out.println(half.halves("bOotcampok"));
+         //HalvesAreAlike half = new HalvesAreAlike();
+         //System.out.println(half.halves("bOotcampok"));
 
 
-        CharacterFrequency cf =  new CharacterFrequency();
-        System.out.println(cf.frequencySort( "raaeaedere"));
+        //CharacterFrequency cf =  new CharacterFrequency();
+        //System.out.println(cf.frequencySort( "raaeaedere"));
+
+        Pascal pascal = new Pascal();
+        System.out.println(pascal.generate(5));
     }
 }
